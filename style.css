@@ -1,0 +1,47 @@
+*{
+ margin: 0;
+ padding: 0;}
+ body{
+background-image: url(https://images.pexels.com/photos/1550637/pexels-photo-1550637.jpeg?cs=srgb&dl=pexels-vincenzo-malagoli-1550637.jpg&fm=jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+}
+.container{
+ 
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+}
+#stopwatch{
+ font-size: 100px;
+ box-shadow: 0px 0px 10px black;
+ color: white;
+ border-radius: 10px;
+margin-bottom: 10px;
+}
+#buttons{
+ display: flex;
+}
+button{
+ font-size: larger;
+
+  margin: 10px;
+padding: 20px;
+/* background-color: rgb(175, 100, 113); */
+border: none;
+border-radius: 10px;
+width: 100px;
+box-shadow: 5px 5px 1px rgb(172, 50, 50);
+transition: all 0.5s;
+}
+button:hover{
+ cursor: pointer;
+}
+button:active{
+ box-shadow: none;
+ transition: all 0.5s;
+}
